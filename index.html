@@ -5,66 +5,104 @@
     <style>
       body {
         font-family: Arial, sans-serif;
-        background-color: #a9abae;
+        background-color: #2c2f33; /* Dark background */
+        color: #e0e0e0; /* Light text color */
+        margin: 0;
+        padding: 20px; /* Add some padding around the content */
+      }
+      h1, h2, h3 {
+        color: #f0f0f0; /* Brighter text for headings */
+      }
+      a {
+        color: #6cb2eb; /* Lighter blue for links */
+        text-decoration: none; /* Optional: remove underline */
+      }
+      a:hover {
+        color: #8fc9f7; /* Slightly lighter blue on hover */
+        text-decoration: underline;
+      }
+      hr {
+        border: 0;
+        height: 1px;
+        background-color: #4f545c; /* Lighter gray for horizontal rules */
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      table {
+        width: auto; /* Allow table to size based on content, or set a specific width e.g., 50% */
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse; /* Remove double borders */
       }
       table caption {
         font-size: 1.2em;
         font-weight: bold;
+        color: #f0f0f0; /* Brighter text for caption */
+        padding-bottom: 10px;
       }
       table td {
         text-align: center;
-        padding: 10px;
+        padding: 12px 15px; /* Increased padding for better spacing */
+        border: 1px solid #4f545c; /* Subtle borders for cells */
+      }
+      .profile-image {
+        border: 3px solid #4f545c; /* Optional: add a border around profile image */
+        border-radius: 50%; /* Optional: make profile image circular */
+      }
+      .content-wrapper {
+        max-width: 800px; /* Optional: constrain content width for better readability */
+        margin: auto;
       }
     </style>
   </head>
 <body>
-<div align="center">
-<img src="images/profile_suit.jpg"  height="75" width="70" alt="Timothy Wayne Cook">
-</div>
+<div class="content-wrapper"> 
+  <div align="center">
+   
+    <img src="images/profile_suit.jpg" height="75" width="70" alt="Timothy Wayne Cook" class="profile-image">
+  </div>
 
-<h1 align="center">Timothy W. Cook, MSc. Health Informatics</h1>
-<h3 align="center">BSc. Engineering Technology</h3>
-<p align="center">
-<a href="CookTW-CV_US_2024_online.pdf">Curriculum Vitae</a>
-</p>
-<hr/>
-<h2 align="center">MSgt. USMC, Retired</h2>
-<h3 align="center">Electronics Maintenance Chief(5993), Air Traffic Control Systems Maintenance Chief(5959), 
-  Small Computer Systems Operator/Programmer(9982)</h3>
+  <h1 align="center">Timothy W. Cook, MSc. Health Informatics</h1>
+  <h3 align="center">BSc. Engineering Technology</h3>
+  <p align="center">
+    <a href="CookTW-CV_US_2024_online.pdf">Curriculum Vitae</a>
+  </p>
+  <hr/>
+  <h2 align="center">MSgt. USMC, Retired</h2>
+  <h3 align="center">Electronics Maintenance Chief(5993), Air Traffic Control Systems Maintenance Chief(5959),
+    Small Computer Systems Operator/Programmer(9982)</h3>
   <hr/>
 
-<h2 align="center">Shareable, Structured, Semantic Model Inventor</h2>
-<p align="center">
-  <a href="s3m/index.html" data-title="S3Model" target="s3m">S3Model Documentation</a><br/><br/>
-  <em>Note that these pages were moved from the original S3Model website and have not yet been "prettified" for the new location.</em>
-</p>
-<hr/>
+  <h2 align="center">Shareable, Structured, Semantic Model Inventor</h2>
+  <p align="center">
+    <a href="s3m/infographic.html" data-title="S3Model" target="s3m">S3Model Overview</a><br/><br/>
+  </p>
+  <hr/>
 
-<table align="center">
-<caption align="center">Links to Social Media Profiles</caption>
-<tr>
-  <td align="center"><a href="https://www.linkedin.com/in/timothywaynecook/" target="s3m">LinkedIn</a></td> 
-  <td><a href="https://uff.academia.edu/TimothyCook" target="Academia">Academia.edu</a></td>
-</tr>
-<tr>
-  <td><a href="https://bit.ly/49zNPCr" target="GS">Google Scholar</a></td>
-  <td><a href="https://bsky.app/profile/twcook.us" target="Bluesky">Bluesky</a></td>
-</tr>
-<tr>
-  <td><a href="https://github.com/twcook" target="Github">Github</a></td>
-  <td><a href="https://stackoverflow.com/users/2372930/tim-cook" target="SO">Stackoverflow</a></td>
-</tr>
-</table>
+  <table align="center">
+    <caption align="center">Links to Social Media Profiles</caption>
+    <tr>
+      <td><a href="https://www.linkedin.com/in/timothywaynecook/" target="s3m">LinkedIn</a></td>
+      <td><a href="https://uff.academia.edu/TimothyCook" target="Academia">Academia.edu</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://bit.ly/49zNPCr" target="GS">Google Scholar</a></td>
+      <td><a href="https://bsky.app/profile/twcook.us" target="Bluesky">Bluesky</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/twcook" target="Github">Github</a></td>
+      <td><a href="https://stackoverflow.com/users/2372930/tim-cook" target="SO">Stackoverflow</a></td>
+    </tr>
+  </table>
 
-
-<hr/>
-<div align="center" padding="10px">
-  <img src="images/tcsoundlair_watermark_180x180.png"  height="180" width="180" alt="TC Sound Lair">
+  <hr/>
+  <div align="center" style="padding: 10px;"> 
+    <img src="images/tcsoundlair_watermark_180x180.png"  height="180" width="180" alt="TC Sound Lair">
+  </div>
+  <p align="center">
+    My hobby is creating music of a variety of types. I'll be uploading tracks to my YouTube Account
+    <a href="https://www.youtube.com/@TCSoundLair" target="TCSL">TC Sound Lair</a>
+  </p>
 </div>
-<p align="center">
-  My hobby is creating music of a variety ot types. I'll be uploading tracks to my YouTube Account 
-  <a href="https://www.youtube.com/@TCSoundLair" target="TCSL">TC Sound Lair</a> 
-</p>
-
 </body>
 </html>
