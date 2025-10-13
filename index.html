@@ -1,103 +1,268 @@
-<html>
-  <title>Timothy W. Cook</title>
-  <head>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #2c2f33; /* Dark background */
-        color: #e0e0e0; /* Light text color */
-        margin: 0;
-        padding: 20px; /* Add some padding around the content */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Timothy W. Cook - Health Informatics Expert, USMC Veteran, and Founder of Axius SDC">
+  <title>Timothy W. Cook - Health Informatics & Technology Leader</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+      background: linear-gradient(135deg, #1e2024 0%, #2c2f33 100%);
+      color: #e0e0e0;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header/Hero Section */
+    .hero {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 16px;
+      margin-bottom: 40px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #6cb2eb;
+      margin-bottom: 24px;
+      object-fit: cover;
+      box-shadow: 0 8px 24px rgba(108, 178, 235, 0.3);
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #ffffff;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+
+    .subtitle {
+      font-size: 1.3em;
+      color: #6cb2eb;
+      margin-bottom: 8px;
+    }
+
+    .education {
+      font-size: 1.1em;
+      color: #b0b0b0;
+      margin-bottom: 24px;
+    }
+
+    .cv-link {
+      display: inline-block;
+      padding: 12px 32px;
+      background: linear-gradient(135deg, #6cb2eb 0%, #5a9fd8 100%);
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(108, 178, 235, 0.3);
+    }
+
+    .cv-link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(108, 178, 235, 0.4);
+    }
+
+    /* Section Styling */
+    .section {
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .section h2 {
+      color: #6cb2eb;
+      font-size: 1.8em;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid rgba(108, 178, 235, 0.3);
+    }
+
+    .section h3 {
+      color: #f0f0f0;
+      font-size: 1.3em;
+      margin-bottom: 8px;
+    }
+
+    .section p {
+      color: #b0b0b0;
+      margin-bottom: 12px;
+      font-size: 1.05em;
+    }
+
+    /* Professional Role Badges */
+    .role-badge {
+      display: inline-block;
+      background: rgba(108, 178, 235, 0.15);
+      color: #8fc9f7;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.9em;
+      margin: 4px;
+      border: 1px solid rgba(108, 178, 235, 0.3);
+    }
+
+    /* Social Links Grid */
+    .social-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    .social-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      background: rgba(108, 178, 235, 0.1);
+      border: 1px solid rgba(108, 178, 235, 0.2);
+      border-radius: 8px;
+      text-decoration: none;
+      color: #6cb2eb;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .social-link:hover {
+      background: rgba(108, 178, 235, 0.2);
+      border-color: rgba(108, 178, 235, 0.4);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(108, 178, 235, 0.2);
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 32px 20px;
+      margin-top: 40px;
+    }
+
+    .footer-link {
+      display: inline-block;
+      padding: 12px 24px;
+      background: rgba(108, 178, 235, 0.1);
+      color: #6cb2eb;
+      text-decoration: none;
+      border-radius: 8px;
+      border: 1px solid rgba(108, 178, 235, 0.3);
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .footer-link:hover {
+      background: rgba(108, 178, 235, 0.2);
+      transform: translateY(-2px);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.8em;
       }
-      h1, h2, h3 {
-        color: #f0f0f0; /* Brighter text for headings */
+
+      .subtitle {
+        font-size: 1.1em;
       }
-      a {
-        color: #6cb2eb; /* Lighter blue for links */
-        text-decoration: none; /* Optional: remove underline */
+
+      .section {
+        padding: 24px 20px;
       }
-      a:hover {
-        color: #8fc9f7; /* Slightly lighter blue on hover */
-        text-decoration: underline;
+
+      .social-grid {
+        grid-template-columns: 1fr;
       }
-      hr {
-        border: 0;
-        height: 1px;
-        background-color: #4f545c; /* Lighter gray for horizontal rules */
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-      table {
-        width: auto; /* Allow table to size based on content, or set a specific width e.g., 50% */
-        margin-left: auto;
-        margin-right: auto;
-        border-collapse: collapse; /* Remove double borders */
-      }
-      table caption {
-        font-size: 1.2em;
-        font-weight: bold;
-        color: #f0f0f0; /* Brighter text for caption */
-        padding-bottom: 10px;
-      }
-      table td {
-        text-align: center;
-        padding: 12px 15px; /* Increased padding for better spacing */
-        border: 1px solid #4f545c; /* Subtle borders for cells */
-      }
+
       .profile-image {
-        border: 3px solid #4f545c; /* Optional: add a border around profile image */
-        border-radius: 50%; /* Optional: make profile image circular */
+        width: 120px;
+        height: 120px;
       }
-      .content-wrapper {
-        max-width: 800px; /* Optional: constrain content width for better readability */
-        margin: auto;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 12px;
       }
-    </style>
-  </head>
+
+      h1 {
+        font-size: 1.5em;
+      }
+
+      .hero {
+        padding: 40px 16px 32px;
+      }
+    }
+  </style>
+</head>
 <body>
-<div class="content-wrapper"> 
-  <div align="center">
-   
-    <img src="images/profile_suit.jpg" height="75" width="70" alt="Timothy Wayne Cook" class="profile-image">
+  <div class="container">
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="images/profile_suit.jpg" alt="Timothy Wayne Cook" class="profile-image">
+      <h1>Timothy W. Cook</h1>
+      <p class="subtitle">Health Informatics Expert & Technology Leader</p>
+      <p class="education">MSc. Health Informatics | BSc. Engineering Technology</p>
+      <a href="CookTW-CV_US_2024_online.pdf" class="cv-link" target="_blank">View Full CV</a>
+    </section>
+
+    <!-- Military Service Section -->
+    <section class="section">
+      <h2>Military Service</h2>
+      <h3>MSgt. USMC, Retired</h3>
+      <p>Served with distinction in the United States Marine Corps, specializing in advanced electronics and systems operations:</p>
+      <div>
+        <span class="role-badge">Electronics Maintenance Chief (5993)</span>
+        <span class="role-badge">Air Traffic Control Systems Maintenance Chief (5959)</span>
+        <span class="role-badge">Small Computer Systems Operator/Programmer (9982)</span>
+      </div>
+    </section>
+
+    <!-- Current Work Section -->
+    <section class="section">
+      <h2>Current Leadership</h2>
+      <h3><a href="https://axius-sdc.com/" target="_blank" style="color: #6cb2eb; text-decoration: none;">Axius SDC</a> - Founder & CEO</h3>
+      <p>Leading innovation in semantic data management through the development of the Semantic Data Charter. Born from research in healthcare data semantic interoperability, the Semantic Data Charter now provides a groundbreaking approach to structured information systems across all information industries.</p>
+    </section>
+
+    <!-- Connect Section -->
+    <section class="section">
+      <h2>Connect With Me</h2>
+      <div class="social-grid">
+        <a href="https://www.linkedin.com/in/timothywaynecook/" target="_blank" class="social-link">LinkedIn</a>
+        <a href="https://github.com/twcook" target="_blank" class="social-link">GitHub</a>
+        <a href="https://bit.ly/49zNPCr" target="_blank" class="social-link">Google Scholar</a>
+        <a href="https://uff.academia.edu/TimothyCook" target="_blank" class="social-link">Academia.edu</a>
+        <a href="https://stackoverflow.com/users/2372930/tim-cook" target="_blank" class="social-link">Stack Overflow</a>
+        <a href="https://x.com/AxiusSDC" target="_blank" class="social-link">Axius-SDC on X</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="./MyLifein7Pages.pdf" target="_blank" class="footer-link">My Life in 7 Pages</a>
+    </footer>
   </div>
-
-  <h1 align="center">Timothy W. Cook, MSc. Health Informatics</h1>
-  <h3 align="center">BSc. Engineering Technology</h3>
-  <p align="center">
-    <a href="CookTW-CV_US_2024_online.pdf">Curriculum Vitae</a>
-  </p>
-  <hr/>
-  <h2 align="center">MSgt. USMC, Retired</h2>
-  <h3 align="center">Electronics Maintenance Chief(5993), Air Traffic Control Systems Maintenance Chief(5959),
-    Small Computer Systems Operator/Programmer(9982)</h3>
-  <hr/>
-
-  <h2 align="center"><a href="https://axius-sdc.com/" target="_blank">Axius SDC</a> Founder & CEO</h2>
-  <h3 align="center">Semantic Data Charter, Inventor</h3>
-  
-  <hr/>
-
-  <table align="center">
-    <caption align="center">Links to Social Media Profiles</caption>
-    <tr>
-      <td><a href="https://www.linkedin.com/in/timothywaynecook/" target="s3m">LinkedIn</a></td>
-      <td><a href="https://uff.academia.edu/TimothyCook" target="Academia">Academia.edu</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://bit.ly/49zNPCr" target="GS">Google Scholar</a></td>
-      <td><a href="https://x.com/AxiusSDC" target="Axius-SDC on X">Axius-SDC on X</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/twcook" target="Github">Github</a></td>
-      <td><a href="https://stackoverflow.com/users/2372930/tim-cook" target="SO">Stackoverflow</a></td>
-    </tr>
-  </table>
-
-  <hr/>
-   <p align="center">
-    <a href="./MyLifein7Pages.pdf" target="_blank">My Life in 7 Pages</a>
-  </p>
-</div>
 </body>
 </html>
