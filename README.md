@@ -6,7 +6,7 @@
 
 ## 🚀 About Me
 
-I'm an experienced leader in health informatics and technology innovation. My career spans over two decades in advanced electronics, information systems, and semantic data management. As a retired Master Sergeant with the United States Marine Corps, I specialized in electronics maintenance, air traffic control systems, and computer systems operations.
+I'm an experienced leader in health informatics and technology innovation. My career spans over four decades in advanced electronics, information systems, and semantic data management. As a retired Master Sergeant with the United States Marine Corps, I specialized in electronics maintenance, air traffic control systems, and computer systems operations.
 
 ### 🎓 Education
 
