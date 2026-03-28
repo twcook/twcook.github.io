@@ -1,0 +1,47 @@
+# Timothy W. Cook
+
+> Health Informatics Expert, USMC Veteran, Founder & CEO of Axius SDC. 25+ years building semantic data modeling systems.
+
+## Professional
+
+- Founder & CEO, [Axius SDC, Inc.](https://axius-sdc.com) (2025-present)
+- 25+ years in semantic data modeling and health informatics
+- US Marine Corps veteran
+- Based in Kentucky, USA
+- Primary author: 3,700+ commits across 41+ repositories (2013-present)
+
+## Research & Publications
+
+- 165+ citations on Google Scholar
+- 12+ peer-reviewed publications (AMIA, JCI, JAMA, IEEE/ACM)
+- Research areas: multi-level modeling, semantic interoperability, data governance, knowledge representation
+- Search: "Timothy Cook MLHIM" or "Cook Cavalini MLHIM" on Google Scholar / PubMed
+
+## Work
+
+- [Semantic Data Charter (SDC)](https://semanticdatacharter.com): Open specification for self-describing data models (15+ years of R&D)
+- [SDCStudio](https://sdcstudio.com): Production platform for SDC data modeling
+- [SDC Agents](https://github.com/SemanticDataCharter/SDC_Agents): AI agent toolsets for automated data governance
+- [Substack](https://axiussdc.substack.com): Writing on data architecture, AI governance, and the NULL problem
+- Author: *The Jagged Edge* (on AI capability boundaries and data integrity)
+
+## Evolution of Work
+
+1. FreePM/TORCH (2000-2009): Open source healthcare applications
+2. MLHIM (2009-2017): Multi-Level Health Information Model (430 commits, 165+ citations)
+3. S3Model (2012-2025): Shareable, Structured, Semantic Model (1,586 commits, generalized beyond healthcare)
+4. SDC / Axius SDC (2025-present): Commercial platform and open specification
+
+## Civic Engagement
+
+- County Board of Elections member
+- Active in local government and community service
+
+## Links
+
+- [Personal Website](https://twcook.github.io)
+- [Axius SDC](https://axius-sdc.com)
+- [Semantic Data Charter](https://semanticdatacharter.com)
+- [GitHub](https://github.com/twcook)
+- [LinkedIn](https://www.linkedin.com/in/timothywaynecook/)
+- [Substack](https://axiussdc.substack.com)
