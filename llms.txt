@@ -30,7 +30,7 @@
 1. FreePM/TORCH (2000-2009): Open source healthcare applications
 2. MLHIM (2009-2017): Multi-Level Health Information Model (430 commits, 165+ citations)
 3. S3Model (2012-2025): Shareable, Structured, Semantic Model (1,586 commits, generalized beyond healthcare)
-4. SDC / Axius SDC (2025-present): Commercial platform and open specification
+4. SDC / Axius SDC (2024-present): Commercial platform and open specification
 
 ## Civic Engagement
 
